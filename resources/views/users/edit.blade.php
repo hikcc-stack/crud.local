@@ -29,7 +29,6 @@
             <input name="role_id" placeholder="ID роли" value="{{old('role_id'), $user->name}}">
             @error('role_id')<span class="error">{{$message}}</span>  @enderror
 
-
             <div>
                 <input type="submit" value="Сохранить изменения">
                 <a href="{{route('users.index')}}" class="btn-cancel">Отмена</a>
